@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 font-weight-light mb-5">Soy desarrollador backend, programador y Técnico
-                        Informático</p>
+                        Universitario en Informática</p>
                     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Ver mas</a>
                 </div>
             </div>
@@ -63,6 +63,7 @@
             width: 50%;
             border-radius: 50%;
         }
+
     </style>
     <section class="page-section bg-primary" id="about">
         <div class="container">
@@ -71,8 +72,7 @@
                     <h2 class="text-white mt-0">Sobre Mí</h2>
                     <hr class="divider light my-4" />
                     <p class="text-white mb-5">Poseo experiencia en el desarrollo de aplicaciones webs. Estoy en
-                        continuo aprendizaje para especializarme en el desarrollo FullStack y también poder complacer mi
-                        amor por el código.
+                        continuo aprendizaje para especializarme en el desarrollo FullStack.
                     </p>
                     <img src="{{ asset('assets/img/yo.jpg') }}" class="img-about" alt="" srcset="">
                 </div>
@@ -95,52 +95,72 @@
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-html5 text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/html-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="html">
+                        <h3 class="h4 mb-2">Html5</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-css3-alt text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/css-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="css">
+                        <h3 class="h4 mb-2">CSS3</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-js text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/js-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="javascript">
+                        <h3 class="h4 mb-2">JavaScript</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-bootstrap text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/bootstrap-logo.png') }}" class="img-skills"
+                            loading="lazy" alt="bootstrap">
+                        <h3 class="h4 mb-2">Bootstrap</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-php text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/php-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="php">
+                        <h3 class="h4 mb-2">PHP</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-python text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/python-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="python">
+                        <h3 class="h4 mb-2">Python</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <i class="fab fa-4x fa-laravel text-dark"></i>
+                        <img src="{{ asset('assets/img/skills/laravel-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="laravel">
+                        <h3 class="h4 mb-2">Laravel</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <img src="{{ asset('assets/img/codeigniter-logo.png') }}" class="img-skills" alt="codeigniter">
+                        <img src="{{ asset('assets/img/skills/codeigniter-logo.png') }}" class="img-skills"
+                            loading="lazy" alt="codeigniter">
+                        <h3 class="h4 mb-2">Codeigniter</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <img src="{{ asset('assets/img/django-logo.png') }}" class="img-skills" alt="django">
+                        <img src="{{ asset('assets/img/skills/django-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="django">
+                        <h3 class="h4 mb-2">Django</h3>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <img src="{{ asset('assets/img/mysql-logo.png') }}" class="img-skills" alt="mysql">
+                        <img src="{{ asset('assets/img/skills/mysql-logo.png') }}" class="img-skills" loading="lazy"
+                            alt="mysql">
+                        <h3 class="h4 mb-2">MySql</h3>
                     </div>
                 </div>
             </div>
@@ -209,9 +229,14 @@
     </div>
     <!-- Call to action-->
     <section class="page-section bg-dark text-white">
-        <div class="container text-center">
-            <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-            <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
+        <div class="container d-flex justify-content-center">
+           <ul class="pagination pagination-lg">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
         </div>
     </section>
     <!-- Contact-->
@@ -219,7 +244,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">¡Mantengámonos en contacto! </h2>
+                    <h2 class="mt-0">¡Estemos en contacto! </h2>
                     <hr class="divider my-4" />
                     <p class="text-muted mb-5">¿Listo para comenzar tu próximo proyecto? ¡Contactame y pongamonos en
                         marcha! </p>
