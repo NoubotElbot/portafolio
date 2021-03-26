@@ -34,7 +34,7 @@
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre Mí</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Habilidades</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portafolio</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                 </ul>
             </div>
@@ -49,7 +49,7 @@
                     <hr class="divider my-4" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">Soy desarrollador backend, programador y Técnico
+                    <p class="text-white-75 font-weight-light mb-5">Desarrollador web - Programador backend - Técnico
                         Universitario en Informática</p>
                     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Ver mas</a>
                 </div>
@@ -62,6 +62,7 @@
             object-fit: contain;
             width: 50%;
             border-radius: 50%;
+            border: 5px solid #ffffff;
         }
 
     </style>
@@ -71,7 +72,7 @@
                 <div class="col-lg-8 text-center">
                     <h2 class="text-white mt-0">Sobre Mí</h2>
                     <hr class="divider light my-4" />
-                    <p class="text-white mb-5">Poseo experiencia en el desarrollo de aplicaciones webs. Estoy en
+                    <p class="text-white mb-5">Soy Técnico Universitario Informático egresado el 2020 de la Universidad Federico Santa María. Poseo experiencia en el desarrollo de aplicaciones webs. Estoy en
                         continuo aprendizaje para especializarme en el desarrollo FullStack.
                     </p>
                     <img src="{{ asset('assets/img/yo.jpg') }}" class="img-about" alt="" srcset="">
@@ -90,7 +91,7 @@
     </style>
     <section class="page-section" id="skills">
         <div class="container">
-            <h2 class="text-center mt-0">Lenguejes y Tecnologias</h2>
+            <h2 class="text-center mt-0">Lenguejes y Tecnologías</h2>
             <hr class="divider my-4" />
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
@@ -163,82 +164,57 @@
                         <h3 class="h4 mb-2">MySql</h3>
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                    <div class="mt-5">
+                        <img src="{{ asset('assets/img/skills/digital-ocean.png') }}" class="img-skills" loading="lazy"
+                            alt="Digital Ocean">
+                        <h3 class="h4 mb-2">Digital Ocean</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                    <div class="mt-5">
+                        <img src="{{ asset('assets/img/skills/cpanel.png') }}" class="img-skills" loading="lazy"
+                            alt="cpanel">
+                        <h3 class="h4 mb-2">cPanelHost</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <style>
+        .img-portafolio {
+            object-fit: cover;
+            width: 100%;
+            height: 300px;
+        }
+
+    </style>
     <!-- Portfolio-->
     <div id="portfolio">
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0 bg-primary">
+            <section class="page-section bg-dark text-white">
+                <div class="container d-flex justify-content-center">
+                    <div class="container text-center">
+                        <h2 class="mt-0">Portafolio </h2>
+                        <hr class="divider my-3" />
+                    </div>
+                </div>
+            </section>
             <div class="row no-gutters">
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                    <a class="portfolio-box" target="_blank"  href="https://politicaminera.cl/">
+                        <img class="img-portafolio" src="assets/img/portfolio/proyectos/politica-minera-chilena.jpg"
+                            alt="" />
                         <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Category</div>
-                            <div class="project-name">Project Name</div>
+                            <div class="project-category text-white-50">Blog</div>
+                            <div class="project-name">Política Minera Chilena</div>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Call to action-->
-    <section class="page-section bg-dark text-white">
-        <div class="container d-flex justify-content-center">
-           <ul class="pagination pagination-lg">
-                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-        </div>
-    </section>
+
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -266,6 +242,7 @@
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container">
+            <div class="small text-center text-muted">Nota: Este es un sitio de pruebas</div>
             <div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div>
         </div>
     </footer>
