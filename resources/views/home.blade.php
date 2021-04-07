@@ -72,7 +72,8 @@
                 <div class="col-lg-8 text-center">
                     <h2 class="text-white mt-0">Sobre Mí</h2>
                     <hr class="divider light my-4" />
-                    <p class="text-white mb-5">Soy Técnico Universitario Informático egresado el 2020 de la Universidad Federico Santa María. Poseo experiencia en el desarrollo de aplicaciones webs. Estoy en
+                    <p class="text-white mb-5">Soy Técnico Universitario Informático egresado el 2020 de la Universidad
+                        Federico Santa María. Poseo experiencia en el desarrollo de aplicaciones webs. Estoy en
                         continuo aprendizaje para especializarme en el desarrollo FullStack.
                     </p>
                     <img src="{{ asset('assets/img/yo.jpg') }}" class="img-about" alt="" srcset="">
@@ -91,7 +92,7 @@
     </style>
     <section class="page-section" id="skills">
         <div class="container">
-            <h2 class="text-center mt-0">Lenguejes y Tecnologías</h2>
+            <h2 class="text-center mt-0">Lenguajes y Tecnologías</h2>
             <hr class="divider my-4" />
             <div class="row">
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
@@ -166,8 +167,8 @@
                 </div>
                 <div class="col-lg-2 col-md-3 col-sm-4 text-center">
                     <div class="mt-5">
-                        <img src="{{ asset('assets/img/skills/digital-ocean.png') }}" class="img-skills" loading="lazy"
-                            alt="Digital Ocean">
+                        <img src="{{ asset('assets/img/skills/digital-ocean.png') }}" class="img-skills"
+                            loading="lazy" alt="Digital Ocean">
                         <h3 class="h4 mb-2">Digital Ocean</h3>
                     </div>
                 </div>
@@ -202,12 +203,39 @@
             </section>
             <div class="row no-gutters">
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" target="_blank"  href="https://politicaminera.cl/">
+                    <a class="portfolio-box" target="_blank" href="https://politicaminera.cl/">
                         <img class="img-portafolio" src="assets/img/portfolio/proyectos/politica-minera-chilena.jpg"
                             alt="" />
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50">Blog</div>
                             <div class="project-name">Política Minera Chilena</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-portafolio" src="assets/img/portfolio/proyectos/sicv.png" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Aplicación</div>
+                            <div class="project-name">Sistema de Inventario y Ventas para Minimercados</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://www.string.cl/">
+                        <img class="img-portafolio" src="assets/img/portfolio/proyectos/hprod.png" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Aplicación</div>
+                            <div class="project-name">Sistema de Control de Producción para cliente de String</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://www.string.cl/">
+                        <img class="img-portafolio" src="assets/img/portfolio/proyectos/lsoft.png" alt="" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">Aplicación</div>
+                            <div class="project-name">Sistema de Control Suministro de Alimentos de Mascotas servicio de String</div>
                         </div>
                     </a>
                 </div>
@@ -250,8 +278,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> --}}
     <!-- Core theme JS-->
     <script src="{{ asset('js/scripts.js') }}"></script>
 </body>
