@@ -60,10 +60,19 @@
     <!-- About-->
     <style>
         .img-about {
-            object-fit: contain;
+            object-fit: cover;
             width: 50%;
             border-radius: 50%;
             border: 5px solid #ffffff;
+        }
+
+        @media (max-width: 516px) {
+            .img-about {
+                object-fit: cover;
+                width: 80%;
+                border-radius: 50%;
+                border: 5px solid #ffffff;
+            }
         }
 
     </style>
@@ -77,7 +86,7 @@
                         Federico Santa María. Poseo experiencia en el desarrollo de aplicaciones webs. Estoy en
                         continuo aprendizaje para especializarme en el desarrollo FullStack.
                     </p>
-                    <img src="{{ asset('assets/img/yo.jpg') }}" class="img-about" alt="" srcset="">
+                    <img src="{{ asset('assets/img/yo.jpeg') }}" class="img-about" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -180,6 +189,20 @@
                         <h3 class="h4 mb-2">cPanelHost</h3>
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                    <div class="mt-5">
+                        <img src="{{ asset('assets/img/skills/react.png') }}" class="img-skills" loading="lazy"
+                            alt="React">
+                        <h3 class="h4 mb-2">React</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                    <div class="mt-5">
+                        <img src="{{ asset('assets/img/skills/sass.png') }}" class="img-skills" loading="lazy"
+                            alt="Sass">
+                        <h3 class="h4 mb-2">Sass</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -236,7 +259,8 @@
                         <img class="img-portafolio" src="assets/img/portfolio/proyectos/lsoft.png" alt="" />
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50">Aplicación</div>
-                            <div class="project-name">Sistema de Control Suministro de Alimentos de Mascotas servicio de String</div>
+                            <div class="project-name">Sistema de Control Suministro de Alimentos de Mascotas servicio de
+                                String</div>
                         </div>
                     </a>
                 </div>
@@ -271,7 +295,6 @@
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container">
-            <div class="small text-center text-muted">Nota: Este es un sitio de pruebas</div>
             <div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div>
         </div>
     </footer>
